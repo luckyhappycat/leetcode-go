@@ -42,6 +42,7 @@ go test -bench=. ./...
 | [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [0083.remove-duplicates-from-sorted-list](src/0083.remove-duplicates-from-sorted-list) | `单链表` |
 | [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/) | [0086.partition-list](src/0086.partition-list) | `单链表` |
 | [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [0160.intersection-of-two-linked-lists](src/0160.intersection-of-two-linked-lists) | `单链表`, `双指针` |
+| [203. 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [0203.remove-linked-list-elements](src/0203.remove-linked-list-elements) | `单链表` |
 
 ## 栈
 
