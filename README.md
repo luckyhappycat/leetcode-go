@@ -7,6 +7,24 @@
 在线版的leetcode题解：
 [LeetCode Cookbook](https://books.halfrost.com/leetcode/)
 
+
+## 项目结构
+
+```bash
+├── README.md
+├── src
+├── structures
+```
+
+
+```bash
+# 正确性测试
+go test -v ./...
+# 性能测试
+go test -bench=. ./...
+```
+
+
 # 分类
 
 ## 数组

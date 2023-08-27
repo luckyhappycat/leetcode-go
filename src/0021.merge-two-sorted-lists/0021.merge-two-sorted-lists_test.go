@@ -61,3 +61,17 @@ func TestMergeTwoLists(t *testing.T) {
 		}
 	}
 }
+
+// BenchmarkMergeTwoLists-4   	 1000000	      1258 ns/op
+func BenchmarkMergeTwoLists(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		mergeTwoLists(structures.InitListNode([]int{1, 2, 4}), structures.InitListNode([]int{1, 3, 4}))
+	}
+}
+
+// BenchmarkMergeTwoLists2-4   	 1000000	      1258 ns/op
+func BenchmarkMergeTwoLists2(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		mergeTwoLists2(structures.InitListNode([]int{1, 2, 4}), structures.InitListNode([]int{1, 3, 4}))
+	}
+}
