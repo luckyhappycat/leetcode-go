@@ -12,15 +12,16 @@
 ## 数组
 
 <!-- 表格 -->
-| 题目 | 题解 |
-| :--- | :--- |
-| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/) | [0001.two-sum](src/0001.two-sum) |
+| 题目 | 题解 | 备注 |
+| :--- | :--- | :--- |
+| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/) | [0001.two-sum](src/0001.two-sum) | `数组`, `哈希表` |
 
 ## 链表
 
-| 题目 | 题解 |
-| :--- | :--- |
-| [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [0002.add-two-numbers](src/0002.add-two-numbers) |
+| 题目 | 题解 | 备注 |
+| :--- | :--- | :--- |
+| [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [0002.add-two-numbers](src/0002.add-two-numbers) | `单链表` |
+| [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [0019.remove-nth-node-from-end-of-list](src/0019.remove-nth-node-from-end-of-list) | `单链表`, `双指针` |
 
 ## 栈
 
