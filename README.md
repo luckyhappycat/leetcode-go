@@ -7,7 +7,6 @@
 在线版的leetcode题解：
 [LeetCode Cookbook](https://books.halfrost.com/leetcode/)
 
-
 ## 项目结构
 
 ```bash
@@ -16,14 +15,12 @@
 ├── structures
 ```
 
-
 ```bash
 # 正确性测试
 go test -v ./...
 # 性能测试
 go test -bench=. ./...
 ```
-
 
 # 分类
 
@@ -44,6 +41,7 @@ go test -bench=. ./...
 | [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [0024.swap-nodes-in-pairs](src/0024.swap-nodes-in-pairs) | `单链表` |
 | [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [0083.remove-duplicates-from-sorted-list](src/0083.remove-duplicates-from-sorted-list) | `单链表` |
 | [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/) | [0086.partition-list](src/0086.partition-list) | `单链表` |
+| [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [0160.intersection-of-two-linked-lists](src/0160.intersection-of-two-linked-lists) | `单链表`, `双指针` |
 
 ## 栈
 
