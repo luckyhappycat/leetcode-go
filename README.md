@@ -22,6 +22,7 @@
 | :--- | :--- | :--- |
 | [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [0002.add-two-numbers](src/0002.add-two-numbers) | `单链表` |
 | [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [0019.remove-nth-node-from-end-of-list](src/0019.remove-nth-node-from-end-of-list) | `单链表`, `双指针` |
+| [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [0021.merge-two-sorted-lists](src/0021.merge-two-sorted-lists) | `单链表` |
 
 ## 栈
 
