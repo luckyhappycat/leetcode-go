@@ -26,7 +26,8 @@ go test -bench=. ./...
 
 ## 数组
 
-<!-- 表格 -->
+<https://leetcode.cn/tag/array/problemset/>
+
 | 题目 | 题解 | 备注 |
 | :--- | :--- | :--- |
 | [1. 两数之和](https://leetcode-cn.com/problems/two-sum/) | [0001.two-sum](src/0001.two-sum) | `数组`, `哈希表` |
@@ -52,9 +53,13 @@ go test -bench=. ./...
 
 ## 哈希表
 
+<https://leetcode.cn/tag/hash-table/problemset/>
+
 ## 堆
 
 ## 字符串
+
+<https://leetcode.cn/tag/string/problemset/>
 
 ## 树
 
