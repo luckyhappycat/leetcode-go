@@ -15,14 +15,14 @@ type Result struct {
 }
 
 type Case struct {
-	params Param
+	param  Param
 	result Result
 }
 
 func TestTwoSum(t *testing.T) {
 	cases := []Case{
 		{
-			params: Param{
+			param: Param{
 				nums:   []int{2, 7, 11, 15},
 				target: 9,
 			},
@@ -31,7 +31,7 @@ func TestTwoSum(t *testing.T) {
 			},
 		},
 		{
-			params: Param{
+			param: Param{
 				nums:   []int{3, 2, 4},
 				target: 6,
 			},
@@ -40,7 +40,7 @@ func TestTwoSum(t *testing.T) {
 			},
 		},
 		{
-			params: Param{
+			param: Param{
 				nums:   []int{3, 3},
 				target: 6,
 			},
@@ -51,9 +51,9 @@ func TestTwoSum(t *testing.T) {
 	}
 
 	for _, c := range cases {
-		got := twoSum(c.params.nums, c.params.target)
+		got := twoSum(c.param.nums, c.param.target)
 		if !reflect.DeepEqual(got, c.result.want) {
-			t.Errorf("twoSum(%v, %d) == %v, want %v", c.params.nums, c.params.target, got, c.result.want)
+			t.Errorf("twoSum(%v, %d) == %v, want %v", c.param.nums, c.param.target, got, c.result.want)
 		}
 	}
 }
