@@ -47,7 +47,10 @@ func TestSwapPairs(t *testing.T) {
 		},
 	}
 	for _, c := range cases {
+		structures.PrintListNode(c.param.head)
+		structures.PrintListNode(c.result.want)
 		got := swapPairs(c.param.head)
+		structures.PrintListNode(got)
 		if !structures.EqualListNode(got, c.result.want) {
 			t.Errorf("swapPairs(%v) == %v, want %v", c.param.head, got, c.result.want)
 		}
