@@ -14,13 +14,13 @@
 <!-- 表格 -->
 | 题目 | 题解 |
 | :--- | :--- |
-| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/) | [Go](src/0001.two-sum) |
+| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/) | [0001.two-sum](src/0001.two-sum) |
 
 ## 链表
 
 | 题目 | 题解 |
 | :--- | :--- |
-| [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Go](src/0002.add-two-numbers) |
+| [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [0002.add-two-numbers](src/0002.add-two-numbers) |
 
 ## 栈
 
