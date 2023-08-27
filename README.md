@@ -33,6 +33,8 @@ go test -bench=. ./...
 
 ## 链表
 
+<https://leetcode.cn/tag/linked-list/problemset/>
+
 | 题目 | 题解 | 备注 |
 | :--- | :--- | :--- |
 | [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [0002.add-two-numbers](src/0002.add-two-numbers) | `单链表` |
