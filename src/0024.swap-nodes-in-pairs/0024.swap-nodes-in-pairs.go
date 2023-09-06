@@ -6,6 +6,7 @@ import (
 
 type ListNode = structures.ListNode
 
+// https://leetcode-cn.com/problems/swap-nodes-in-pairs/
 func swapPairs(head *ListNode) *ListNode {
 	dummy := &ListNode{Next: head}
 	for cur := dummy; cur != nil && cur.Next != nil && cur.Next.Next != nil; {

@@ -6,6 +6,7 @@ import (
 
 type ListNode = structures.ListNode
 
+// https://leetcode-cn.com/problems/remove-linked-list-elements/
 func removeElements(head *ListNode, val int) *ListNode {
 	dummyHead := &ListNode{Val: 0, Next: head}
 	for cur := dummyHead; cur != nil && cur.Next != nil; {

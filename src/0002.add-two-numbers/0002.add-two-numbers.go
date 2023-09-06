@@ -6,6 +6,7 @@ import (
 
 type ListNode = structures.ListNode
 
+// https://leetcode-cn.com/problems/add-two-numbers/
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	head := &ListNode{Val: 0, Next: nil}
 	v1, v2, carry, cur := 0, 0, 0, head

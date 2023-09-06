@@ -6,6 +6,7 @@ import (
 
 type ListNode = structures.ListNode
 
+// https://leetcode-cn.com/problems/merge-two-sorted-lists/
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	dummyHead := &ListNode{Val: 0, Next: nil}
 	cur := dummyHead

@@ -6,7 +6,7 @@ import (
 
 type ListNode = structures.ListNode
 
-// 1 -> 1 -> 2
+// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
 func deleteDuplicates(head *ListNode) *ListNode {
 	if head == nil {
 		return head

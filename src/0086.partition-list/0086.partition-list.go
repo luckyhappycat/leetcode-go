@@ -6,6 +6,7 @@ import (
 
 type ListNode = structures.ListNode
 
+// https://leetcode-cn.com/problems/partition-list/
 func partition(head *ListNode, x int) *ListNode {
 	lessHead := &ListNode{Val: 0, Next: nil}
 	moreHead := &ListNode{Val: 0, Next: nil}

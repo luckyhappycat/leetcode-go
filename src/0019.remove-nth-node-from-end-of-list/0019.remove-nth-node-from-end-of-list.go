@@ -6,6 +6,7 @@ import (
 
 type ListNode = structures.ListNode
 
+// https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	dummyHead := &ListNode{Val: 0, Next: head}
 	fast, slow := head, dummyHead
